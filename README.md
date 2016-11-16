@@ -2,6 +2,9 @@
 [Thumbtack Simple Database Challenge](https://www.thumbtack.com/challenges/simple-database)
 
 # Execution Instructions
+
+Simple run `java -jar simple-database-challenge.jar` in the `simple-database-challenge` directory.
+
 # Thought Process
 
 I decided to implement my solution in Java, which I am fairly familiar with, but to use a few new technologies. My experience in Java is limited to introductory CS classes which mainly focused on algorithmic design and simple object-oriented classes. Therefore, I decided to use a new IDE, Intellij and new Java libraries, JUnit and Mockito. This also gave me a chance to explore Javadocs which I have not previously been introduced to.
