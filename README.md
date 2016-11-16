@@ -1,8 +1,8 @@
 # simple-database-challenge
 [Thumbtack Simple Database Challenge](https://www.thumbtack.com/challenges/simple-database)
 
-## Execution Instructions
-## Thought Process
+# Execution Instructions
+# Thought Process
 
 I decided to implement my solution in Java, which I am fairly familiar with, but to use a few new technologies. My experience in Java is limited to introductory CS classes which mainly focused on algorithmic design and simple object-oriented classes. Therefore, I decided to use a new IDE, Intellij and new Java libraries, JUnit and Mockito. This also gave me a chance to explore Javadocs which I have not previously been introduced to.
 My approach was inspired by the MVC pattern which I am only vaguely familiar with. The idea was that I could explore the paradigm by attempting to divide my solution along the same lines. This is also the reason for the naming of the DatabaseModel and DatabaseController.
@@ -28,7 +28,7 @@ Database sockets were essentially my version of a view which allowed the user to
 The controller could defer parsing the input into commands to a parser which would reduce the complexity of generating commands.
 The abstraction of commands could be cleaner. I don’t particularly like the Command class, but it does provide some important functionality.
 Test coverage is extremely weak. Every class should have each of its methods unit tested and a few integration tests should be incorporated with the provided sample input. 
-## Performance Considerations
+# Performance Considerations
 Set, Get, Unset and Numequalto should be roughly O(1). This might change based on the precise implementation of HashMap.
 Begin is O(1) as it simply creates a new stack
 Commands are separate form the implementation of transactions. The only difference between the execution of data commands inside and outside of a transaction is the number of constant time operations that must be performed, since data commands also generate a rollback command during a transaction.
